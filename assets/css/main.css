@@ -186,9 +186,58 @@ input, select, textarea {
 				color: #2ebaae !important;
 			}
 
-				a:hover:before {
-					color: #2ebaae !important;
-				}
+	a.redirect {
+		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		color: #2ebaae;
+		border-bottom: dotted 1px transparent;
+		text-decoration: none;
+	}
+
+		a.redirect:before {
+			-moz-transition: color 0.2s ease;
+			-webkit-transition: color 0.2s ease;
+			-ms-transition: color 0.2s ease;
+			transition: color 0.2s ease;
+		}
+
+		a.redirect:hover {
+			border-bottom-color: #259e94;
+			color: #259e94 !important;
+		}
+
+			a.redirect:hover:before {
+				color: #259e94 !important;
+			}
+
+	a.resource {
+		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		color: #87d3ce;
+		border-bottom: 2pc transparent;
+		/* text-decoration: none; */
+		font-weight: 600;
+	}
+
+		a.resource:before {
+			-moz-transition: color 0.2s ease;
+			-webkit-transition: color 0.2s ease;
+			-ms-transition: color 0.2s ease;
+			transition: color 0.2s ease;
+		}
+
+		a.resource:hover {
+			border-bottom-color: #2ebaae;
+			color: #2ebaae !important;
+		}
+
+			a.resource:hover:before {
+				color: #2ebaae !important;
+			}
 
 
 			strong, b {
@@ -208,19 +257,19 @@ input, select, textarea {
 				text-decoration: none;
 			}
 
-				a:before {
+				a:before b, a:before strong{
 					-moz-transition: color 0.2s ease;
 					-webkit-transition: color 0.2s ease;
 					-ms-transition: color 0.2s ease;
 					transition: color 0.2s ease;
 				}
 
-				a:hover {
-					border-bottom-color: #2ebaae;
+				a:hover b, a:hover strong{
+					border-bottom-color: transparent;
 					color: #2ebaae !important;
 				}
 
-					a:hover:before {
+					a:hover:before b, a:hover:before strong{
 						color: #2ebaae !important;
 					}
 			em, i {
