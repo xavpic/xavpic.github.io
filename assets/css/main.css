@@ -3300,7 +3300,7 @@ input, select, textarea {
 					padding-left: 0;
 				}
 
-				#header .links ul li:nth-child(4) {
+				#header .links ul li:nth-child(5) {
 					padding-left: 1.5em;
 					border-left: solid 3px rgba(160, 160, 160, 0.3);
 					line-height: inherit;
