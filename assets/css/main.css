@@ -3538,7 +3538,7 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		overflow: hidden;
 		position: relative;
-		width: 4em;
+		width: 6.5em;
 	}
 
 		#intro .logo:before {
@@ -3558,7 +3558,7 @@ input, select, textarea {
 		#intro .logo img {
 			display: block;
 			margin-left: -0.25em;
-			width: 4.5em;
+			width: 7em;
 		}
 
 	#intro header h2 {
