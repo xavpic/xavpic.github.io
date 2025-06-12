@@ -101,6 +101,33 @@
 					<div id="main">
 
 						<!-- Post -->
+						 <article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="www.jh-inst.cas.cz/dbds25/index.html">New Trends on DNA-based Data Storage (DBDS2025)</a></h2>
+										<p>Poster: Hierarchical Encoding of JPEG2000-compressed Images for DNA data storage</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2025-06-12">June 12th, 2025</time>
+									<a href="https://www.eurecom.fr/en/research/department-data-science" class="author"><span class="name">EURECOM</span><br><img src="images/logos/EURECOM_logo.jpg" alt="" /></a>
+									</div>
+								</header>
+								<!-- <a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a> -->
+								<p>The increase in storage demand and low lifespan of conventional data storage media has transformed long-term archival and preservation into key bottlenecks for the data storage industry. Thus, researchers are now investigating innovative data storage media techniques. DNA molecules, with their high density, long lifespan and low energy needs, are promising candidates for alternative long- term data archival systems.
+									However, current DNA data storage technologies are facing challenges with respect to cost (reading and writing on DNA is expensive) and reliability (reading and writing data is error prone). Thus, data compression and error correction are crucial to scale DNA storage and make it technologically and economically viable. Additionally, the DNA molecules encoding different files are very often stored in the same place, called an oligo pool. For this reason, without random access solutions, it is relatively impractical to decode a specific file from the pool, because all the oligos from all the files need to first be sequenced, which greatly deteriorates the read cost.
+									<div style="text-align: center;">
+									<img src="images/posts/workflow.jpg" alt="" width="60%" height="auto"/>
+									</div>
+									<br>This paper introduces a solution (Fig. 1) to efficiently encode and store images into DNA molecules, that aims at reducing the read cost necessary to retrieve a resolution-reduced version of an image. This image storage system is based on the Progressive Decoding Functionality of the JPEG2000 codec and can be adapted for any other codec that enables a progressive decoding function. Each resolution layer is encoded into a set of oligos using the Raptor code [1] provided in the JPEG DNA VM software, with primers specific to the resolution layer attached to them. Depending on the desired resolution to be read, the set of oligos to be sequenced and decoded is adjusted accordingly. These oligos will be selected, augmented and sequenced through a PCR process run with the layer specific primers. The ReadUntil functionality of the Nanopore Sequencer can replace the PCR runs. It provides a system to reject at sequencing time the oligos that do not match a given template. This template can be dynamically modified during sequencing, allowing for better automation of the whole layer access process.
+									<br>References:
+									[1] Lazzarotto, D. et al., "Technical description of the EPFL submission to the JPEG DNA CfP",
+									jpeg.org, 2023</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="https://www.researchgate.net/publication/392123464_Hierarchical_Encoding_of_JPEG2000-compressed_Images_for_DNA_data_storage_Encoding_workflow" class="button large">Poster Link</a></li>
+									</ul>
+								</footer>
+						</article>
 						<article class="post">
 							<header>
 								<div class="title">
