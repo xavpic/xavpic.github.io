@@ -3634,10 +3634,10 @@ input, select, textarea {
 /* Menu */
 
 	#menu {
-		-moz-transform: translateX(25em);
-		-webkit-transform: translateX(25em);
-		-ms-transform: translateX(25em);
-		transform: translateX(25em);
+		-moz-transform: translateX(35em);
+		-webkit-transform: translateX(35em);
+		-ms-transform: translateX(35em);
+		transform: translateX(35em);
 		-moz-transition: -moz-transform 0.5s ease, visibility 0.5s;
 		-webkit-transition: -webkit-transform 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
@@ -3653,7 +3653,7 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		visibility: hidden;
-		width: 25em;
+		width: 35em;
 		z-index: 10002;
 	}
 
